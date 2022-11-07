@@ -7,12 +7,19 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 62.5%;
+  }
+
   html, border-style, #root {
     height: 100%;
   }
 
-  #root {
-    display: flex;
-    justify-content: center;
+
+  button {
+    cursor: pointer;
+    border: none;
   }
+
 `
