@@ -1,1 +1,3 @@
-export default {}
+import profileLocale from './en-us/profile.json'
+
+export default { profileLocale }
