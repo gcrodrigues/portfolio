@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@carbon/icons-react": "^11.10.0",
+    "framer-motion": "^7.6.5",
     "i18next": "^22.0.4",
     "i18next-browser-languagedetector": "^7.0.1",
     "polished": "^4.2.2",
