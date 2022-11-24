@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   html {
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Kumbh Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     font-size: 62.5%;
   }
 
@@ -16,8 +16,13 @@ export default createGlobalStyle`
     height: 100%;
   }
 
-
+  body {
+    background-color: ${({ theme }) => theme.colors.colorPrimaryBackground};
+    color: ${({ theme }) => theme.colors.colorText};
+  }
+  
   button {
+    color: ${({ theme }) => theme.colors.colorText};
     cursor: pointer;
     border: none;
   }
